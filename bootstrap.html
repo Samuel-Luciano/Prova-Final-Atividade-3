@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Formulário</h1>
+			<form class="row">			
+				<div class="col-4">
+					<label>Nome:</label>
+					<input type="text" name="nome" class="form-control" />
+				</div>
+				<div class="col-2">
+					<label>Data de Nascimento:</label>
+					<input type="text" name="data" class="form-control" />
+				</div>
+				<div class="col-2">
+					<label>Ano que Cursa:</label>
+					<input type="text" name="ano" class="form-control" />
+				</div>
+				<div class="col-2">
+					<label>Matéria Preferida:</label>
+					<input type="text" name="materia" class="form-control" />
+				</div>
+				<div class="col-2">
+					<button type="submit" class="btn btn-success" style="margin-top: 30px;">Salvar</button>
+				</div>
+			</form>
+			<br/>
+			<table class="table table-striped">
+				<colgroup>
+					<col width="200">
+					<col width="150">
+					<col width="150">
+					<col width="200">
+					<col width="100">
+					<col width="100">
+				</colgroup>
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>Nascimento</th>
+						<th>Ano que Cursa</th>
+						<th>Matéria Preferida</th>
+						<th>Editar</th>
+						<th>Excluir</th>						
+				</thead>
+				<tbody>
+					<tr>
+						<td>Fulano</td>
+						<td>22/11/2001</td>
+						<td>3º Ano</td>
+						<td>Química</td>
+						<td>
+							<button class="btn btn-success">Editar</button>
+						</td>
+						<td>
+							<button class="btn btn-danger">Exlcuir</button>
+						</td>
+					</tr>
+					<tr>
+						<td>Ciclano</td>
+						<td>07/06/2002</td>
+						<td>3º Ano</td>
+						<td>Português</td>
+						<td>
+							<button class="btn btn-success">Editar</button>
+						</td>
+						<td>
+							<button class="btn btn-danger">Exlcuir</button>
+						</td>
+					</tr>
+					<tr>
+						<td>Beltrano</td>
+						<td>26/10/2002</td>
+						<td>3º Ano</td>
+						<td>Matemática</td>
+						<td>
+							<button class="btn btn-success">Editar</button>
+						</td>
+						<td>
+							<button class="btn btn-danger">Exlcuir</button>
+						</td>
+					</tr>
+					<tr>
+						<td>Sicrano</td>
+						<td>13/04/2002</td>
+						<td>3º Ano</td>
+						<td>Física</td>
+						<td>
+							<button class="btn btn-success">Editar</button>
+						</td>
+						<td>
+							<button class="btn btn-danger">Exlcuir</button>
+						</td>
+					</tr>
+				</tbody>	
+			</table>	
+		</div>	
+	</body>
+</html>	
+				
